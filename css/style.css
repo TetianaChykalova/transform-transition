@@ -60,3 +60,15 @@ body {
     left: 50%;
     transform: translate(-50%, 0);
 }
+
+.element_1 {
+    transition: all 0.5s linear 0s;
+}
+.element_1:hover  {
+    transition: all 0.5s linear 0s;
+    transform-origin: center;
+    /*transform: scale(3, 2);*/
+    /*transform: rotate(180deg);*/
+    /*transform: skew(20deg, 10deg);*/
+    transform: scale(1.5) rotate(180deg);
+}
