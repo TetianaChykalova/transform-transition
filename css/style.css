@@ -56,6 +56,15 @@ body {
     border-radius: 5px;
     text-align: center;
     position: relative;
-    top: 50px;
+    top: 150px;
     left: 50%;
+    transform: translate(-50%, 0px);
+    /*transition-duration: 1s;*/
+    /*transition-timing-function: linear;*/
+    transition: all 1s linear 0s;
+}
+.element:hover {
+    background: #9900ff;
+    color: white;
+    width: 300px;
 }
